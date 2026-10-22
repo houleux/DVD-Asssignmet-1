@@ -1,1 +1,3 @@
 pnr/runs/
+.DS_Store
+*.vcd
