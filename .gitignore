@@ -1,3 +1,6 @@
 pnr/runs/
 .DS_Store
 *.vcd
+sim
+gls
+results.md

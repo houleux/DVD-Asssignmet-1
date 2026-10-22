@@ -44,7 +44,7 @@ initial begin
 
             @(posedge clk);
             @(posedge clk);
-            #1;
+            @(negedge clk);
 
             if (p !== expected) begin
                 errors = errors + 1;
